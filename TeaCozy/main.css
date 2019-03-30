@@ -1,0 +1,139 @@
+
+/* Body */
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 10;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header img {
+    padding-left: 10px;
+    height: 50px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+a {
+    display: inline-block;
+    text-decoration: underline;
+    color: seashell;
+    padding: 20px 10px;
+}
+
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+.main {
+    position: relative;
+    padding-top: 69px;
+    width: 1200px;   
+    margin: auto;
+}
+
+/* Mission  */
+
+#Mission {
+    height: 700px;
+    background-image: url("img/img-mission-background.jpg");
+    padding-top: 70px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#Mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+/* Featured Tea */
+
+#FeaturedTea {
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.item {
+    padding: 5px;
+}
+
+.item img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+.item span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Locations */
+
+#Locations {
+    margin-top: 70px;
+    padding-top: 70px;
+    height: 500px;
+    background-image: url("img/img-locations-background.jpg");
+}
+
+.location {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px;
+}
+
+/* The Tea Cozy */
+
+.TheTeaCozy {
+    height: 200px;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    padding: 20px;
+    text-align: left;
+    bottom: 0;
+} 
+
